@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"MUSICBOT",
+      "value":"CASEYRHODES",
       "required":false
 
     } ,
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "ARLODRAGON"
+    "value": "CASEYRHODES 🌟"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '254')",
     "required":false,
-    "value": "254702713600"
+    "value": "254112192119"
   },
     "WARN_COUNT":
   {
