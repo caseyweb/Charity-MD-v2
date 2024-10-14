@@ -18,7 +18,7 @@ zokou({ nomCom: "lyrics",
 
     if (lyrics.error) return repondre("no lyrics found");
 
-    let msg = `---------𝖒𝖚𝖘𝖎𝖈𝖇𝖔𝖙-lyrics-finder--------
+    let msg = `---------𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃-lyrics-finder--------
 
 * *Artist :* ${lyrics.artist}
 
