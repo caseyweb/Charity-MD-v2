@@ -41,9 +41,11 @@ Our AI features use random APIs to run, so sometimes they may be down.
 ## Pairing:
 
 
-- ***`Get your Session Id` by  [`PAIRING CODE`](https://andbad-qr.onrender.com/pair)
-  100% safe for heroku . `or`
-  [`HERE`](https://dreaded-v2.onrender.com).***
+### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 1
+<p align="left">
+<a href="https://dreaded-v2.onrender.com"><img height= "30" title="Author" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-skyblue?style=for-the-badge&logo=render"></a>
+<p/>
+   
 
 
 
