@@ -33,6 +33,11 @@ Our AI features use random APIs to run, so sometimes they may be down.
 - ***You MUST `fork` this repo before fetching pairing code. Fork this repo by tapping  [`here`](https://github.com/caseyweb/charity-md/fork)***
 
 
+### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 1
+<p align="left">
+<a href="https://andbad-qr.onrender.com"><img height= "30" title="Author" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-skyblue?style=for-the-badge&logo=render"></a>
+<p/>
+
 ## Pairing:
 
 
