@@ -36,13 +36,13 @@ const date = moment().format('DD/MM/YYYY');
    *𝕿𝖍𝖊𝖘𝖊 𝖕𝖗𝖔𝖏𝖊𝖈𝖙 𝖎𝖘 𝖕𝖗𝖎𝖛𝖆𝖙𝖊* 
 ╭─────────────────
 │♫︎╭─────────────
-│⁠⁠⁠⁠♫︎│▸ *𝖈𝖍𝖆𝖓𝖓𝖊𝖑* https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q
+│⁠⁠⁠⁠♫︎│▸ *𝖈𝖍𝖆𝖓𝖓𝖊𝖑* https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 │♫︎│▸⁣⣿⣿⡿⠋⠄⡀⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⣉⣉⣉⡉⠙⠻
 │♫︎│▸╔╦╦╦══╦══╗
 ║♫︎╔╣╠╝╔╬╝╔╣ 𝕲𝖊𝖙 𝖙𝖍𝖊 𝖗𝖊𝖕𝖔 𝖎𝖓 𝖙𝖍𝖊 𝖈𝖍𝖆𝖓𝖓𝖊𝖑.
 ╚♫︎╝╚╩══╩══╝
 │⁠⁠⁠⁠♫︎╰──────────────
-│♫︎│▸ *𝖈𝖍𝖆𝖓𝖓𝖊𝖑* : https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q
+│♫︎│▸ *𝖈𝖍𝖆𝖓𝖓𝖊𝖑* : https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 │♫︎│▸╔╦╦╦══╦══╗
 ║♫︎╔╣╠╝╔╬╝╔╣
 ╚♫︎╝╚╩══╩══╝
@@ -52,7 +52,7 @@ const date = moment().format('DD/MM/YYYY');
   `;
     
 let menuMsg = `
-     > 𝖒𝖚𝖘𝖎𝖈𝖇𝖔𝖙 𝖒𝖆𝖉𝖊 𝖇𝖞 𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓
+     > 𝐜𝐡𝐚𝐫𝐢𝐭𝐲 𝐦𝐝 𝐦𝐚𝐝𝐞 𝐛𝐲 𝐜𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬
 
 ♫︎────────────────────♫︎`;
     
