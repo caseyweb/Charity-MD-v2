@@ -60,7 +60,7 @@
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
-     "value":"musiccbot",
+     "value":"CASEYRHODES",
 	"required" :true
     }  
 	  ,
@@ -99,7 +99,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",  
+    "value":"2",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
