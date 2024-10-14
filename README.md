@@ -52,9 +52,9 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 
 
-  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Kingdragony/Musicbot"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/caseyweb/Charity-MD-v2"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
   
-- ***Now [`DEPLOY TO HEROKU`](https://dashboard.heroku.com/new?template=https://github.com/caseyweb/Charity-MD-v2).***
+
 
 -***`Fill in all the required variables and deploy the bot.`***
 
