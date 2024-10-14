@@ -33,7 +33,7 @@ zokou(
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `𝖒𝖚𝖘𝖎𝖈𝖇𝖔𝖙¡ ${ping}ms`, edit: {
+      text: `𝐂𝐚𝐞𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬¡ ${ping}ms`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
     await zk.sendMessage(dest, {
