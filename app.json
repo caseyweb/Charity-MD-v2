@@ -1,9 +1,9 @@
 {
-  "name":"Musicbot",
-  "description":"Deploy now your bot, MUSICBOT developed by ARLODRAGON himself.Make sure you fill all variables to avoid bot from sleeping. ",
+  "name":"charity-MD-v2",
+  "description":"Deploy now your bot, charity-md-v2 developed by CASEYRHODES himself.Make sure you fill all variables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/jQh5iIT.jpeg",
-  "repository":"https://github.com/Kingdragony/Musicbot",
+  "repository":"https://github.com/caseyweb/Charity-MD-v2",
   "succes_url":"/",
   "stack":"container",
   "env":{
