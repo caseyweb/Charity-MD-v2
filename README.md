@@ -36,7 +36,9 @@ Our AI features use random APIs to run, so sometimes they may be down.
 ## Pairing:
 
 
-- ***`Get your Session Id` by  [`PAIRING CODE HERE`](https://dreaded-pair.onrender.com). `or` [`HERE`](https://dreaded-v2.onrender.com).***
+- ***`Get your Session Id` by  [`PAIRING CODE`](https://andbad-qr.onrender.com/pair)
+  100% safe for heroku . `or`
+  [`HERE`](https://dreaded-v2.onrender.com).***
 
 
 
