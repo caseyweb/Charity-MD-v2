@@ -34,7 +34,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __
 ││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 ││ *𝐘𝐨𝐮𝐭𝐮𝐛𝐞:* https://www.youtube.com/@caseyrhodes01
 ╰─────────▱▰▱▰────────
-          *ᴍᴜsɪᴄʙᴏᴛ*`;
+          *▀▄▀▄▀▄ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 ▄▀▄▀▄▀*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
