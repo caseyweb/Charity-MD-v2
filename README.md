@@ -26,11 +26,12 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 ## SET-UP
 
-## Fork
 
-<h2 align="center">   
+### 1. FORK THIS REPO
 
-- ***You MUST `fork` this repo before fetching pairing code. Fork this repo by tapping  [`here`](https://github.com/caseyweb/Charity-MD-v2/fork)***
+<a href='https://github.com/caseyweb/Charity-MD-v2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork This Repo-blue?style=for-the-badge&logo=git&logoColor=white'/></a>
+<p align="center">
+
 
 
 ### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 1
