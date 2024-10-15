@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝖎𝖘 𝖒𝖞 𝖉𝖊𝖛. ')
+repondre(' 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐢𝐬 𝐦𝐲 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 . ')
 
 }
     });
