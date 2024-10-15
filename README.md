@@ -32,7 +32,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 1. Fork the repo
     <br>
-<a href='https://github.com/caseyweb/Charity-MD-v2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=blue&color=blue'/></a>
+<a href='https://github.com/caseyweb/Charity-MD-v2/fork' target="_blank"><img alt='Fork   repo' src='https://img.shields.io/badge/Fork   Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=blue&color=blue'/></a>
 
 ### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 1
 <p align="center">
