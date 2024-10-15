@@ -33,12 +33,12 @@ zokou(
     const end = new Date().getTime();
     const ping = end - start;
     await zk.sendMessage(dest, {
-      text: `𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬! ${ping}ms`, edit: {
+      text: `𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬⚡! ${ping}ms`, edit: {
         id: msg.key.id, remoteJid: dest
       }});
     await zk.sendMessage(dest, {
       react: {
-        text: "🎧", key: ms.key
+        text: "🌟", key: ms.key
       }})
   }
 )
