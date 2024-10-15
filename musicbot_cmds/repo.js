@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://api.github.com/repos/caseyweb/CASEYRHODES-MD-V2';
-  const img = 'https://i.imgur.com/zREk0PM.jpeg';
+  const githubRepo = 'https://api.github.com/repos/caseyweb/Charity-MD-v2';
+  const img = 'https://i.imgur.com/ggIBWn4.jpeg';
 
   try {
     const response = await fetch(githubRepo);
@@ -22,7 +22,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __
       const lastUpdateDate = new Date(data.updated_at).toLocaleDateString('en-GB');
 
       const gitdata = `*彡CASEYRHODES-MD-V2彡*\n  
-      *CASEYRHODES 🌟 𝔦𝔰 𝔪𝔶 𝔬𝔴𝔫𝔢.*
+      *CASEYRHODES 🌟 𝐢𝐬 𝐦𝐲 𝐡𝐚𝐧𝐝𝐬𝐨𝐦𝐞 𝐨𝐰𝐧𝐞𝐫 .*
 ╭─────────▱▰▱▰────────
 ││ *𝐒𝐞𝐬𝐬𝐢𝐨𝐧*ON THE CHANNEL
 ││ *𝐑𝐞𝐩𝐨:* ${data.html_url}
@@ -34,7 +34,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __
 ││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 ││ *𝐘𝐨𝐮𝐭𝐮𝐛𝐞:* https://www.youtube.com/@caseyrhodes01
 ╰─────────▱▰▱▰────────
-          *▀▄▀▄▀▄ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 ▄▀▄▀▄▀*`;
+          *▀▄▀▄▀▄ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃 ▄▀▄▀▄▀*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
