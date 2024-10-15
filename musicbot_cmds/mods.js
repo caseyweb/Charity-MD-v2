@@ -47,7 +47,7 @@ const sleep =  (ms) =>{
         type = 'not animated sticker'
       }
   
-      let msg = `   𝖒𝖚𝖘𝖎𝖈𝖇𝖔𝖙 𝖘𝖙𝖎𝖈𝖐𝖊𝖗𝖘
+      let msg = `   𝐜𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬 𝖘𝖙𝖎𝖈𝖐𝖊𝖗𝖘
       
   *Name :* ${stickers.data.result.name}
   *Type :* ${type} 
@@ -70,7 +70,7 @@ const sleep =  (ms) =>{
   
           const sticker = new Sticker(buffer.data, {
             pack: nomAuteurMessage,
-            author: "𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓",
+            author: "𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬",
             type: StickerTypes.FULL,
             categories: ['🤩', '🎉'],
             id: '12345',
@@ -487,7 +487,7 @@ zokou({ nomCom: "save", categorie: "Mods" }, async (dest, zk, commandeOptions) =
           let media  = await zk.downloadAndSaveMediaMessage(msgRepondu.stickerMessage)
   
           let stickerMess = new Sticker(media, {
-            pack: 'BMW-MD-TAG',
+            pack: 'CASEYRHODES-MD-TAG',
             type: StickerTypes.CROPPED,
             categories: ["🤩", "🎉"],
             id: "12345",
