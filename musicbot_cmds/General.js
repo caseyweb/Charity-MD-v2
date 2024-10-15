@@ -2,7 +2,7 @@ const { zokou } = require("../framework/zokou");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "owner", categorie: "General", reaction: "🚘" }, async (dest, zk, commandeOptions) => {
+zokou({ nomCom: "owner", categorie: "General", reaction: "😹" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -55,13 +55,13 @@ zokou({ nomCom: "dev", categorie: "General", reaction: "🎣" }, async (dest, zk
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓", numero: "254702713600" },
-      { nom: "᚛𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓᚜", numero: "254746764468" },
-      { nom: "owner 𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓", numero: "254702713600" },
+      { nom: "𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬", numero: "254112192119" },
+      { nom: "᚛𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬᚜", numero: "254785968570" },
+      { nom: "owner 𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬", numero: "254112192119" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "WELCOME TO 𝖒𝖚𝖘𝖎𝖈𝖇𝖔𝖙♫︎ MEDIA HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "WELCOME TO 𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬 𝐦𝐝 MEDIA HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -95,7 +95,7 @@ else {
 zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("𝕿𝖍𝖆𝖓𝖐 𝖞𝖔𝖚 𝖋𝖔𝖗 𝖈𝖍𝖔𝖔𝖘𝖎𝖓𝖌 𝖒𝖚𝖘𝖎𝖈𝖇𝖔𝖙♫︎\n\n ♫︎ 𝖈𝖍𝖆𝖓𝖓𝖊𝖑 𝖑𝖎𝖓𝖐 ♫︎ \n\n𓅓⁠⁠⁠⁠[https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q]") 
-  await zk.sendMessage(auteurMessage,{text : `𝖒𝖚𝖘𝖎𝖈𝖇𝖔𝖙 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 𝖈𝖍𝖆𝖓𝖓𝖊𝖑.\n\n https://whatsapp.com/channel/0029VaNPPwR30LKQk437x51Q `},{quoted :ms})
+  repondre("𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐟𝐨𝐫 𝐜𝐡𝐨𝐨𝐬𝐢𝐧𝐠 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒\n\n ♫︎ 𝖈𝖍𝖆𝖓𝖓𝖊𝖑 𝖑𝖎𝖓𝖐 ♫︎ \n\n𓅓⁠⁠⁠⁠[https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E]") 
+  await zk.sendMessage(auteurMessage,{text : `𝐜𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐝𝐞𝐬 𝖘𝖚𝖕𝖕𝖔𝖗𝖙 𝖈𝖍𝖆𝖓𝖓𝖊𝖑.\n\n https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E `},{quoted :ms})
 
 })
