@@ -99,14 +99,19 @@ Thanks to...
   </a>
 
 
-Incase of any issues, contact me  [here](https://wa.me/+254112192119) via WhatsApp.
+**GET In Touch with The Owner**
+
+- <a href="https://wa.me/254112192119" target="_blank">
+    <img alt="CLICK HERE" src="https://img.shields.io/badge/ On WhatsApp  -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  </a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 Modifying the bot structure is at your own risk. We won't offer technical support if error occur.
 
 
 ## License
 
-[MIT License](https://github.com/caseyweb/Charity-md/blob/main/LICENSE)
+[Apache LICENCE](https://github.com/caseyweb/Charity-MD-v2/blob/main/LICENSE)
 
 Copyright (c) 2024 CHARITY MD V1
 
