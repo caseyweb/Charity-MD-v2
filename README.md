@@ -66,6 +66,12 @@ Our AI features use random APIs to run, so sometimes they may be down.
 ## Heroku Setup:
 
    - ***[`CREATE HEROKU ACCOUNT`](https://signup.heroku.com/) `if you don't have one.`***
+<img title="HEROKU ACCOUNT" src="https://img.shields.io/badge/CREATE%20HEROKU%20accoint-3498DB?style=for-the-badge&logo=stackshare" />
+    </a>
+</div>
+
+
+   - ***[`CREATE HEROKU ACCOUNT`](https://signup.heroku.com/) `if you don't have one.`***
 
 
 
