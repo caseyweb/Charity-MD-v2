@@ -30,10 +30,16 @@ Our AI features use random APIs to run, so sometimes they may be down.
 ## `BUTTON MENU SETUP`
 
 
-1. Fork the repo
-    <br>
-<a href='https://github.com/caseyweb/Charity-MD-v2/fork' target="_blank"><img alt='Fork   repo' src='https://img.shields.io/badge/Fork   Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=blue&color=blue'/></a>
+## DEVELOPED BY 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 🌟
 
+---
+
+## CREATE YOUR FORK
+<a href="https://github.com/caseyweb/Charity-MD-v2/fork">
+  <img title="Charity-MD-v2" src="https://img.shields.io/badge/FORK-Charity-MD-v2-blue?color=red&style=for-the-badge&logo=stackshare">
+</a>
+
+---
 ### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 1
 <p align="center">
 <a href="https://andbad-qr.onrender.com"><img height= "30" title="Author" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-blue?style=for-the-badge&logo=render"></a>
