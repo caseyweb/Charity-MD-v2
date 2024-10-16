@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-> —(••÷[ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 ]÷••)—* 
+>*-(••÷[ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 ]÷••)—* 
 ╭─────────────────
 │♫︎╭─────────────
 │♫︎│▸ *𝐌𝐄𝐍𝐔* 
