@@ -35,9 +35,14 @@ Our AI features use random APIs to run, so sometimes they may be down.
 ---
 
 ## CREATE YOUR FORK
-<a href="https://github.com/caseyweb/Charity-MD-v2/fork">
-  <img title="Charity-MD-v2" src="https://img.shields.io/badge/FORK-Charity-MD-v2-blue?color=red&style=for-the-badge&logo=stackshare">
-</a>
+
+### Setup
+<div align="center">
+    <a href="https://github.com/caseyweb/Charity-MD-v2/fork">
+        <img title="Charity-MD-v2" src="https://img.shields.io/badge/FORK%20Charity%20Md-3498DB?style=for-the-badge&logo=stackshare" />
+    </a>
+</div>
+
 
 ---
 ### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 1
