@@ -63,12 +63,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 - Then `Go-to WhatsApp > Three dots > Linked Devices`
    - You will get a session ID in your WhatsApp. Copy it.
 
-## Heroku Setup:
-
-   - ***[`CREATE HEROKU ACCOUNT`](https://signup.heroku.com/) `if you don't have one.`***
-<img title="HEROKU ACCOUNT" src="https://img.shields.io/badge/CREATE%20HEROKU%20accoint-3498DB?style=for-the-badge&logo=stackshare" />
-    </a>
-</div>
+## Heroku Setup ##
 
 
    - ***[`CREATE HEROKU ACCOUNT`](https://signup.heroku.com/) `if you don't have one.`***
