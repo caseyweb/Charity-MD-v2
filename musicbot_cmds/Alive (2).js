@@ -1,15 +1,15 @@
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   // Sound
   let name = m.pushName || conn.getName(m.sender)
-  var vn = 'https://cdn.jsdelivr.net/gh/GlobalTechInfo/ULTRA-MD@main/assets/qasim2.mp3'
-  let url = 'https://github.com/GlobalTechInfo/ULTRA-MD'
+  var vn = 'https://cdn.jsdelivr.net/gh/caseyweb/Charity-MD-v2@main/assets/qasim2.mp3'
+  let url = 'https://github.com/caseyweb/Charity-MD-v2'
   let murl = 'https://youtu.be/3j_EIP--2t8?si=4TFWV0On6Bl1wr-e'
-  let img = 'https://i.ibb.co/9HY4wjz/a4c0b1af253197d4837ff6760d5b81c0.jpg'
+  let img = 'https://i.imgur.com/dqkwjOP.jpeg'
   let con = {
     key: {
       fromMe: false,
       participant: `${m.sender.split`@`[0]}@s.whatsapp.net`,
-      ...(m.chat ? { remoteJid: '16504228206@s.whatsapp.net' } : {}),
+      ...(m.chat ? { remoteJid: '254112192119@s.whatsapp.net' } : {}),
     },
     message: {
       contactMessage: {
@@ -30,10 +30,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
-        title: '𝙂𝙇𝙊𝘽𝘼𝙇 𝙈𝘿 𝙄𝙎 𝘼𝙇𝙄𝙑𝙀',
-        body: '© GlobalTechInfo',
+        title: '𝘾𝘼𝙎𝙀𝙔𝙍𝙃𝙊𝘿𝙀𝙎 𝙈𝘿 𝙄𝙎 𝘼𝙇𝙄𝙑𝙀',
+        body: '© CASEYRHODES TECH',
         thumbnailUrl: img,
-        sourceUrl: 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07',
+        sourceUrl: 'https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E',
         mediaType: 1,
         renderLargerThumbnail: true,
       },
