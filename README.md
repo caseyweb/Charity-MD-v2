@@ -128,3 +128,15 @@ Modifying the bot structure is at your own risk. We won't offer technical suppor
 Copyright (c) 2024 CHARITY MD V1
 
 
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+## CONTACT CARLTECH HERE
+  DM FOR SERIOUS BUSINESS
+
+   <a href="https://github.com/carl24tech/CARLTECH-INFO"><img title="CONTACT-CARLTECH" src="https://img.shields.io/badge/CONTACT-CARLTECH-h?color=black&style=for-the-badge&logo=jordan" width="240" height="45.45"/></a></p>
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+
