@@ -51,7 +51,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 <p/>
 
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 ### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 2
 <p align="center">
@@ -128,10 +128,6 @@ Modifying the bot structure is at your own risk. We won't offer technical suppor
 
 Copyright (c) 2024 CHARITY MD V1
 
-
-
-
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
 
