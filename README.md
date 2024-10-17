@@ -51,6 +51,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 <p/>
 
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 2
 <p align="center">
@@ -132,11 +133,7 @@ Copyright (c) 2024 CHARITY MD V1
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
-## CONTACT CARLTECH HERE
-  DM FOR SERIOUS BUSINESS
 
-   <a href="https://github.com/carl24tech/CARLTECH-INFO"><img title="CONTACT-CARLTECH" src="https://img.shields.io/badge/CONTACT-CARLTECH-h?color=black&style=for-the-badge&logo=jordan" width="240" height="45.45"/></a></p>
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
