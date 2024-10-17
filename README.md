@@ -67,6 +67,11 @@ Our AI features use random APIs to run, so sometimes they may be down.
 ## Heroku Setup ##
 
 
+   🕳IF YOU DON'T HAVE A HEROKU ACCOUNT...CREATE ONE
+   
+   <a href="https://signup.heroku.com/"><img title="CREATE-ACCOUNT" src="https://img.shields.io/badge/CREATE-ACCOUNT-h?color=purple&style=for-the-badge&logo=heroku" width="180" height="43.45"/></a></p>
+   
+
    - ***[`CREATE HEROKU ACCOUNT`](https://signup.heroku.com/) `if you don't have one.`***
 
 
