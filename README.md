@@ -54,7 +54,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
 
 ### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 2
 <p align="center">
-<a href="(https://dreaded-pair.onrender.com)"><img height= "30" title="Author" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-blue?style=for-the-badge&logo=render"></a>
+<a href="(https://alundu-4a2020a21a7b.herokuapp.com/)"><img height= "30" title="Author" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-blue?style=for-the-badge&logo=render"></a>
 <p/>
    
 
