@@ -16,7 +16,6 @@
 >
 > This bot is not created nor endorsed by WhatsApp. Your account might be banned. Be careful not to cause spam.
 
----
 
 
 ## FEATURES
