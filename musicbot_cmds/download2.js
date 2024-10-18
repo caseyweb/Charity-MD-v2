@@ -28,7 +28,7 @@ const handleVideoSearch = async (dest, zk, commandeOptions, type) => {
 
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `*MUSICCBOT ${type} PLAYER*\n` +
+          caption: `*CASEYRHODES MD ${type} PLAYER*\n` +
                    `╔══════════════════𝄡\n` +
                    `║ *Title:* ${title}\n` +
                    `║ *Quality:* ${quality}\n` +
@@ -39,7 +39,7 @@ const handleVideoSearch = async (dest, zk, commandeOptions, type) => {
                    `╚═══════════════════𝄡\n` +
                    `𝄤 *Direct YtLink:* ${videoUrl}\n` +
                    `╔═══════════════════𝄡\n` +
-                   `𝄠 *_Regards Arlodragon._*\n` +
+                   `𝄠 *_Regards CASEYRHODES._*\n` +
                    `╚═══════════════════𝄡`
         };
 
