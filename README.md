@@ -57,6 +57,12 @@ Our AI features use random APIs to run, so sometimes they may be down.
 <p/>  
 
 
+### 𝙋𝘼𝙄𝙍 𝘾𝙊𝘿𝙀 3
+<p align="center">
+<a href="https://caseyrhodesyts-b9fa44421af3.herokuapp.com/"><img height= "30" title="Author" src="https://img.shields.io/badge/𝗦𝗘𝗦𝗦𝗜𝗢𝗡-lightpurple?style=for-the-badge&logo=render"></a>
+<p/>  
+
+
 
 - Then `Go-to WhatsApp > Three dots > Linked Devices`
    - You will get a session ID in your WhatsApp. Copy it.
