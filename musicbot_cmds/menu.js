@@ -67,7 +67,7 @@ let menuMsg = ` *COMMANDS* `;
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *☹︎ 𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓*, déveloper 𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓 𝖙𝖊𝖈𝖍" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *☹︎ CASEYRHODES*, déveloper CASEYRHODES TECH" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -77,7 +77,7 @@ let menuMsg = ` *COMMANDS* `;
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓*, déveloper 𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓 𝖙𝖊𝖈𝖍" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *CASEYRHODES*, déveloper CASEYRHODES TECH" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
