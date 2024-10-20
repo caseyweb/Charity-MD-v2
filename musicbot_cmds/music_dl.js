@@ -23,7 +23,7 @@ zokou({
     _0x5a2825 = _0x41e6c5.videos;
     if (_0x5a2825 && _0x5a2825.length > 0x0) {
       const _0x50cb1f = _0x5a2825[0x0].url;
-      const _0x4727f9 = await fetch("https://giftedapis.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x50cb1f) + "&apikey=" + "gifted_api_kt5gd63gjd8");
+      const _0x4727f9 = await fetch("https://api.ibrahimadams.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x50cb1f) + "&apikey=" + "gifted_api_kt5gd63gjd8");
       const _0x58c224 = await _0x4727f9.json();
       if (_0x58c224.status === 0xc8 && _0x58c224.success) {
         const _0x484b86 = _0x58c224.result.download_url;
@@ -77,7 +77,7 @@ zokou({
     _0x3f4e2c = _0x1961ce.videos;
     if (_0x3f4e2c && _0x3f4e2c.length > 0x0) {
       const _0x13523a = _0x3f4e2c[0x0].url;
-      const _0xfef402 = await fetch("https://giftedapis.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x13523a) + "&apikey=" + "gifted_api_kt5gd63gjd8");
+      const _0xfef402 = await fetch("https://api.ibrahimadams.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x13523a) + "&apikey=" + "gifted_api_kt5gd63gjd8");
       const _0x417aee = await _0xfef402.json();
       if (_0x417aee.status === 0xc8 && _0x417aee.success) {
         const _0x4c3690 = _0x417aee.result.download_url;
@@ -131,7 +131,7 @@ zokou({
     _0x14ddfc = _0x152718.videos;
     if (_0x14ddfc && _0x14ddfc.length > 0x0) {
       const _0x1b41fa = _0x14ddfc[0x0].url;
-      const _0x5734dd = await fetch("https://giftedapis.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x1b41fa) + "&apikey=" + "gifted_api_kt5gd63gjd8");
+      const _0x5734dd = await fetch("https://api.ibrahimadams.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x1b41fa) + "&apikey=" + "gifted_api_kt5gd63gjd8");
       const _0x52a93e = await _0x5734dd.json();
       if (_0x52a93e.status === 0xc8 && _0x52a93e.success) {
         const _0x514b03 = _0x52a93e.result.download_url;
@@ -185,7 +185,7 @@ zokou({
     _0x5914b4 = _0x1f4904.videos;
     if (_0x5914b4 && _0x5914b4.length > 0x0) {
       const _0x5225ee = _0x5914b4[0x0].url;
-      const _0x1ee242 = await fetch("https://giftedapis.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x5225ee) + '&apikey=' + "gifted_api_kt5gd63gjd8");
+      const _0x1ee242 = await fetch("https://api.ibrahimadams.us.kg/api/download/ytmp3?url=" + encodeURIComponent(_0x5225ee) + '&apikey=' + "gifted_api_kt5gd63gjd8");
       const _0x2a2489 = await _0x1ee242.json();
       if (_0x2a2489.status === 0xc8 && _0x2a2489.success) {
         const _0x540a3e = _0x2a2489.result.download_url;
