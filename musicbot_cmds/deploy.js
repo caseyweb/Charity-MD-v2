@@ -41,21 +41,21 @@ Hello ${nomAuteurMessage},,
 ✔First type the sc ,repo or script command and you will get alpha md repository 
 ✔From there you are required to get your *Session id* but how,??..
          𝐇𝐎𝐖 𝐓𝐎 𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃
-✞ Open this link 👉 https://keith-sessions-pi5z.onrender.com then tap on pair code.
-✞ Enter your whatsapp number with the country code e.g;  254711122233 then tap submit 
-✞Alpha Md owner , *keithkeizzah* ,will send you the code immediately.Copy the code and whatsapp will bring a notification 
-✞Tap on the notification and paste the code that Alpha md owner sent you.
-✞ After a successful login Alpha Md owner 😂 keithkeizzah will send you a *session id* .some will wonder where the hell is that session ,,,...It is just right at your inbox /dm {your own number for whatsappp} 😂
+✞ Open this link 👉 https://caseyrhodesthedonnz-301c0a9a5078.herokuapp.com then tap on pair code.
+✞ Enter your whatsapp number with the country code e.g;  254112192119 then tap submit 
+✞Alpha Md owner , *CASEYRHODES* ,will send you the code immediately.Copy the code and whatsapp will bring a notification 
+✞Tap on the notification and paste the code that Caseyrhodes md owner sent you.
+✞ After a successful login Charity-MD owner 😂 caseyrhodes will send you a *session id* .some will wonder where the hell is that session ,,,...It is just right at your inbox /dm {your own number for whatsappp} 😂
 ✞Copy the Session id {the one with unreadable codes and long copy it and send it to your deployer or deploy
-     𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐀𝐋𝐏𝐇𝐀 𝐌𝐃
-✔ Now check on Alpha repository in github fork and give a star to this repository before doing anything 🌟or else Alpha Md owner won't allow you to deploy his bot💀.
+     𝐇𝐎𝐖 𝐓𝐎 𝐃𝐄𝐏𝐋𝐎𝐘 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃
+✔ Now check on Charity-MD  repository in github fork and give a star to this repository before doing anything 🌟or else Charity Md owner won't allow you to deploy his bot💀.
 ✔Tap on heroku deploy tab  given there. First thing you should do is getting your *Heroku Api Key* insert it to the required space .
 ✔Enter the valid *heroku app name* and again repeat it to the blank space asking for app name accordingly.Fill everything and press on the below tab Deploy
 ✔In some heroku apps the buld logs might not show but it will eventually deploy 
-✔Now click on this devs number and give alpha md owner credits https://wa.me/qr/7HLS3WQTBCI6O1
+✔Now click on this devs number and give charity md owner credits https://wa.me/+254112192119
 ╰────────────────────☆`;
 let menuMsg = `
-     𝐑𝐞𝐠𝐚𝐫𝐝𝐬 𝐊𝐄𝐈𝐓𝐇 𝐊𝐄𝐈𝐙𝐙𝐀𝐇`;
+     𝐑𝐞𝐠𝐚𝐫𝐝𝐬 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦🌟`;
    var lien = mybotpic();
 
    if (lien.match(/\.(mp4|gif)$/i)) {
