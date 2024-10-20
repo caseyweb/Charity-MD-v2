@@ -38,7 +38,7 @@ Hello ${nomAuteurMessage},,
 *DEPLOYMENT STEPS* 
 ╭───────────────────☆
 ★When you want to deploy any whatsapp bot check on its repo and check on its deployment procedure and make sure you have the deployment site e.g;  heroku.com , render.com , Koyeb.com and many more:
-✔First type the sc ,repo or script command and you will get alpha md repository 
+✔First type the sc ,repo or script command and you will get charity md repository 
 ✔From there you are required to get your *Session id* but how,??..
          𝐇𝐎𝐖 𝐓𝐎 𝐆𝐄𝐓 𝐒𝐄𝐒𝐒𝐈𝐎𝐍 𝐈𝐃
 ✞ Open this link 👉 https://caseyrhodesthedonnz-301c0a9a5078.herokuapp.com then tap on pair code.
