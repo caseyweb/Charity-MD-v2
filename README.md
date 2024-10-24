@@ -94,7 +94,15 @@ Thanks to...
 
 <div align="center">
 
-| [![Fortunatus Mokaya](https://github.com/Fortunatusmokaya.png?lenght=50width=50)](https://github.com/Fortunatusmokaya)|
+
+<p align="center">  
+  <a href="https://youtube.com/Caseyrhodes01">   
+    <img src="https://telegra.ph/file/a2404cf4912a775f17164.jpg"width="500" height="500"/>
+</p>
+</br>
+</br>
+</br>
+     
 |----|
 * [`CASEYRHODES`](https://github.com/caseyweb) ***Author, Owner***
 
