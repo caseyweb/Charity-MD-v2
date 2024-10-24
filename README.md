@@ -133,7 +133,7 @@ Modifying the bot structure is at your own risk. We won't offer technical suppor
 
 [Apache LICENCE](https://github.com/caseyweb/Charity-MD-v2/blob/main/LICENSE)
 
-Copyright (c) 2024 CHARITY MD V1
+Copyright (c) 2024 CHARITY MD V2
 
 
 
