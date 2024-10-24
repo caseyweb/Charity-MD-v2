@@ -99,7 +99,7 @@ Thanks to...
 
 
 <p align="center">  
-  <a href="https://youtube.com/Caseyrhodes01">   
+  <a href="https://www.youtube.com/@Caseyrhodes01">   
     <img src="https://telegra.ph/file/a2404cf4912a775f17164.jpg"width="500" height="500"/>
 </p>
 </br>
