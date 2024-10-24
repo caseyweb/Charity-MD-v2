@@ -91,6 +91,15 @@ Our AI features use random APIs to run, so sometimes they may be down.
 -***`If you plan to host the bot in your server, vps, locally or panel you can carefully edit the file settings.js`***
 
 
+<br>
+
+</details>
+
+
+ ### ✧✧ Follow this Tutorial for Kish-Md  free and safe Deployment
+
+  <a href="https://youtu.be/pn769zbeVXU?si=l4ZScy_qHVP4C6uG"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/pn769zbeVXU?si=l4ZScy_qHVP4C6uG" /><br>
+     
 # Credits
 
 Thanks to...
