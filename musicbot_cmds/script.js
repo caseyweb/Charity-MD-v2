@@ -45,7 +45,7 @@ const date = moment().format('DD/MM/YYYY');
 ⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *CASEYRHODES*
+│❒⁠⁠⁠⁠ *DEV1* : *CASEYRHODES MD*
 │❒⁠⁠⁠⁠ *DEV2* : *CASEYRHODES*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
