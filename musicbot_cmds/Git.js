@@ -33,26 +33,26 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-   *𝕿𝖍𝖊𝖘𝖊 𝖕𝖗𝖔𝖏𝖊𝖈𝖙 𝖎𝖘 𝖕𝖗𝖎𝖛𝖆𝖙𝖊* 
+   *𝗧𝗛𝗜𝗦 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗜𝗦 𝗣𝗥𝗜𝗩𝗔𝗧𝗘* 
 ╭─────────────────
 │♫︎╭─────────────
-│⁠⁠⁠⁠♫︎│▸ *𝖈𝖍𝖆𝖓𝖓𝖊𝖑* https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
+│⁠⁠⁠⁠♫︎│▸ *𝐂𝐇𝐀𝐍𝐍𝐄𝐋* https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 │♫︎│▸⁣⣿⣿⡿⠋⠄⡀⣿⣿⣿⣿⣿⣿⣿⠿⠛⠋⣉⣉⣉⡉⠙⠻
 │♫︎│▸╔╦╦╦══╦══╗
-║♫︎╔╣╠╝╔╬╝╔╣ 𝕲𝖊𝖙 𝖙𝖍𝖊 𝖗𝖊𝖕𝖔 𝖎𝖓 𝖙𝖍𝖊 𝖈𝖍𝖆𝖓𝖓𝖊𝖑.
+║♫︎╔╣╠╝╔╬╝╔╣ 𝐆𝐞𝐭 𝐫𝐞𝐩𝐨 𝐢𝐧 𝐭𝐡𝐞 𝐜𝐡𝐚𝐧𝐧𝐞𝐥.
 ╚♫︎╝╚╩══╩══╝
 │⁠⁠⁠⁠♫︎╰──────────────
-│♫︎│▸ *𝖈𝖍𝖆𝖓𝖓𝖊𝖑* : https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
+│♫︎│▸ *𝐂𝐇𝐀𝐍𝐍𝐄𝐋* : https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 │♫︎│▸╔╦╦╦══╦══╗
 ║♫︎╔╣╠╝╔╬╝╔╣
 ╚♫︎╝╚╩══╩══╝
-│♫︎│▸ *𝖞𝖙* :https://youtube.com/@cardhero-xs9ny?si=gTq7y0L7RAUvvKJz
+│♫︎│▸ *𝐘𝐎𝐔𝐓𝐔𝐁𝐄* :https://youtube.com/@Caseyrhodes01
 │♫︎╰──────────────
 ╰──────────────────\n─
   `;
     
 let menuMsg = `
-     > 𝐜𝐡𝐚𝐫𝐢𝐭𝐲 𝐦𝐝 𝐦𝐚𝐝𝐞 𝐛𝐲 𝐜𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬
+     > 𝗖𝗛𝗔𝗥𝗜𝗧𝗬 𝗠𝗗 𝗠𝗔𝗗𝗘 𝗕𝗬 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦🌟
 
 ♫︎────────────────────♫︎`;
     
