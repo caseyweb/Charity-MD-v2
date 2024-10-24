@@ -96,9 +96,9 @@ Our AI features use random APIs to run, so sometimes they may be down.
 </details>
 
 
- ### ✧✧ Follow this Tutorial for Kish-Md  free and safe Deployment
+ ### ✧✧ Follow this Tutorial for CHARITY MD  free and safe Deployment
 
-  <a href="https://youtu.be/pn769zbeVXU?si=l4ZScy_qHVP4C6uG"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/pn769zbeVXU?si=l4ZScy_qHVP4C6uG" /><br>
+  <a href="https://youtu.be/pcZHnf-_YUU?si=FXZuZlNKpqCfawhK"><img src="https://img.shields.io/badge/Tutorial-Video-ff0000?style=for-the-badge&logo=youtube&logoColor=ff000000&link=https://youtu.be/pcZHnf-_YUU?si=FXZuZlNKpqCfawhK" /><br>
      
 # Credits
 
