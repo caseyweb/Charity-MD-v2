@@ -117,7 +117,7 @@ Thanks to...
      
 * [`CASEYRHODES`](https://github.com/caseyweb) ***Author, Owner***
 
-* [`CHARITY`](https://github.com/caseyrhodes01) ***For Hisoka Base***
+* [`KEITHKEIZAH`](https://github.com/caseyrhodes01) ***For fixing music download***
 * [`PALVINKIBET`](https://github.com/WhiskeySockets/Baileys) ***Baileys Library***
 * [`WaSocket Discord`](https://discord.gg/WeJM5FP9GG) ***Maintaining the bot libs***
 
