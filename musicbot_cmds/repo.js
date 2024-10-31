@@ -24,7 +24,7 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __
       const gitdata = `*彡CASEYRHODES-MD-V2彡*\n  
       *CASEYRHODES 🌟 𝐢𝐬 𝐦𝐲 𝐡𝐚𝐧𝐝𝐬𝐨𝐦𝐞 𝐨𝐰𝐧𝐞𝐫 .*
 ╭─────────▱▰▱▰────────
-││ *𝐒𝐞𝐬𝐬𝐢𝐨𝐧*ON THE CHANNEL
+││ *𝐒𝐞𝐬𝐬𝐢𝐨𝐧* ON THE CHANNEL
 ││ *𝐑𝐞𝐩𝐨:* ${data.html_url}
 ││ *𝐒𝐭𝐚𝐫𝐬:* ${repoInfo.stars}
 ││ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
