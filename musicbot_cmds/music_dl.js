@@ -22,7 +22,7 @@ zokou({
     if (video && video.url) {
       const songDetails = {
         image: { url: video.thumbnail },
-        caption: `*CASEYRHODES-MD VIDEO PLAYER*\n\nJoin for more tracks of the song:\nhttps://t.me/Caseyrhodes01\n╭───────────────◆\n│ *Title:* ${video.title}\n│ *Duration:* ${video.timestamp}\n│ *Yt link:* ${video.url}\n╰────────────────◆`
+        caption: `*CASEYRHODES-MD VIDEO PLAYER*\n\nJoin for more tracks of the song:\nhttps://t.me/Caseyrhodes001\n╭───────────────◆\n│ *Title:* ${video.title}\n│ *Duration:* ${video.timestamp}\n│ *Yt link:* ${video.url}\n╰────────────────◆`
       };
 
       await zk.sendMessage(origineMessage, songDetails, { quoted: commandeOptions.ms });
@@ -78,7 +78,7 @@ zokou({
     if (video) {
       const songDetails = {
         image: { url: video.thumbnail },
-        caption: `*CASEYRHODES-MD SONG PLAYER*\nJoin for more tracks: https://t.me/Caseyrhodes01\n╭───────────────◆\n│ *Title:* ${video.title}\n│ *Duration:* ${video.timestamp}\n│ *Yt link:* ${video.url}\n╰────────────────◆`
+        caption: `*CASEYRHODES-MD SONG PLAYER*\nJoin for more tracks: https://t.me/Caseyrhodes001\n╭───────────────◆\n│ *Title:* ${video.title}\n│ *Duration:* ${video.timestamp}\n│ *Yt link:* ${video.url}\n╰────────────────◆`
       };
 
       await zk.sendMessage(origineMessage, songDetails, { quoted: commandeOptions.ms });
