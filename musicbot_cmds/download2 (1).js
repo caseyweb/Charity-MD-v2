@@ -1,81 +1,105 @@
-/*
 const { zokou } = require("../framework/zokou");
-const yts = require('yt-search');
+const yts = require("yt-search");
 const axios = require("axios");
-const BaseUrl = 'https://giftedapis.us.kg';
-const giftedapikey = 'gifteddevskk';
 
-const handleVideoSearch = async (dest, zk, commandeOptions, type) => {
-  const { ms, repondre, arg } = commandeOptions;
+zokou({
+  nomCom: "film",
+  categorie: "Search",
+  reaction: "💿"
+}, async (origineMessage, zk, commandeOptions) => {
+  const { arg, repondre } = commandeOptions;
 
   if (!arg[0]) {
-    repondre("Please insert a song/video name.");
+    repondre("Which song do you want?");
     return;
   }
 
   try {
-    const searchTerm = arg.join(" ");
-    const searchResult = await yts(searchTerm);
-    const videos = searchResult.videos;
+    const searchQuery = arg.join(" ");
+    const results = await yts(searchQuery);
+    const video = results.videos[0]; // Get the first video from the results
 
-    if (videos && videos.length > 0) {
-      const videoUrl = videos[0].url;
-      const apiResponse = await fetch(`${BaseUrl}/api/download/ytmp4?url=${encodeURIComponent(videoUrl)}&apikey=${giftedapikey}`);
-      const apiResult = await apiResponse.json();
+    if (video && video.url) {
+      const songDetails = {
+        image: { url: video.thumbnail },
+        caption: `*ALPHA-MD VIDEO PLAYER*\n\nJoin for more tracks of the song:\nhttps://t.me/keithmd\n╭───────────────◆\n│ *Title:* ${video.title}\n│ *Duration:* ${video.timestamp}\n│ *Yt link:* ${video.url}\n╰────────────────◆`
+      };
 
-      if (apiResult.status === 200 && apiResult.success) {
-        const { title, type: quality, download_url: downloadUrl } = apiResult.result;
+      await zk.sendMessage(origineMessage, songDetails, { quoted: commandeOptions.ms });
 
-        const infoMess = {
-          image: { url: videos[0].thumbnail },
-          caption: `*MUSICCBOT ${type} PLAYER*\n` +
-                   `╔══════════════════𝄡\n` +
-                   `║ *Title:* ${title}\n` +
-                   `║ *Quality:* ${quality}\n` +
-                   `║ *Duration:* ${videos[0].timestamp}\n` +
-                   `║ *Viewers:* ${videos[0].views}\n` +
-                   `║ *Uploaded:* ${videos[0].ago}\n` +
-                   `║ *Artist:* ${videos[0].author.name}\n` +
-                   `╚═══════════════════𝄡\n` +
-                   `𝄤 *Direct YtLink:* ${videoUrl}\n` +
-                   `╔═══════════════════𝄡\n` +
-                   `𝄠 *_Regards Arlodragon._*\n` +
-                   `╚═══════════════════𝄡`
-        };
+      const response = await axios.get(`https://widipe.com/download/ytdl?url=${video.url}`);
+      const data = response.data;
 
-        await zk.sendMessage(dest, infoMess, { quoted: ms });
+      if (data && data.result && data.result.mp4 && data.result.title) {
+        const fileName = `${data.result.title}.mp4`;
 
-        const messageOptions = type === 'VIDEO' 
-          ? { video: { url: downloadUrl }, mimetype: 'video/mp4' } 
-          : { audio: { url: downloadUrl }, mimetype: 'audio/mp4' };
+        // Send as document
+        await zk.sendMessage(origineMessage, {
+          document: { url: data.result.mp4 },
+          mimetype: "video/mp4",
+          fileName: fileName
+        }, { quoted: commandeOptions.ms });
 
-        await zk.sendMessage(dest, messageOptions, { quoted: ms });
-
-        repondre(`Download successful for your ${type.toLowerCase()} using Alpha bot.`);
+        // Send as video
+        await zk.sendMessage(origineMessage, {
+          video: { url: data.result.mp4 },
+          mimetype: "video/mp4",
+          fileName: fileName
+        }, { quoted: commandeOptions.ms });
       } else {
-        repondre('Failed to download the media. Please try again later.');
+        repondre("Download failed: No valid data found.");
       }
     } else {
-      repondre('No media found.');
+      repondre("No video found.");
     }
   } catch (error) {
-    console.error('Error from API:', error);
-    repondre('An error occurred while searching or downloading the media.');
+    console.error("Error during search or download:", error);
+    repondre("Download failed due to an error.");
   }
-};
+});
 
-const commandHandler = (nomCom, type, reaction) => {
-  zokou({
-    nomCom,
-    categorie: "Search",
-    reaction
-  }, async (dest, zk, commandeOptions) => {
-    await handleVideoSearch(dest, zk, commandeOptions, type);
-  });
-};
+zokou({
+  nomCom: "song",
+  categorie: "Search",
+  reaction: "💿"
+}, async (origineMessage, zk, commandeOptions) => {
+  const { arg, repondre } = commandeOptions;
 
-commandHandler("play", 'SONG', "💿");
-commandHandler("videodoc", 'VIDEO', "🎥");
-commandHandler("video", 'VIDEO', "🎥");
-commandHandler("song", 'SONG', "💿");
-//
+  if (!arg[0]) {
+    repondre("Which song do you want?");
+    return;
+  }
+
+  try {
+    const searchQuery = arg.join(" ");
+    const results = await yts(searchQuery);
+    const video = results.videos[0]; // Get the first video from the results
+
+    if (video) {
+      const songDetails = {
+        image: { url: video.thumbnail },
+        caption: `*ALPHA-MD SONG PLAYER*\nJoin for more tracks: https://t.me/keithmd\n╭───────────────◆\n│ *Title:* ${video.title}\n│ *Duration:* ${video.timestamp}\n│ *Yt link:* ${video.url}\n╰────────────────◆`
+      };
+
+      await zk.sendMessage(origineMessage, songDetails, { quoted: commandeOptions.ms });
+
+      const response = await axios.get(`https://widipe.com/download/ytdl?url=${video.url}`);
+      const data = response.data;
+
+      if (data && data.result && data.result.mp3) {
+        await zk.sendMessage(origineMessage, {
+          document: { url: data.result.mp3 },
+          mimetype: "audio/mp3",
+          fileName: `${data.result.title}.mp3`
+        }, { quoted: commandeOptions.ms });
+      } else {
+        repondre("Download failed: No valid data found.");
+      }
+    } else {
+      repondre("No video found.");
+    }
+  } catch (error) {
+    console.error("Error during search or download:", error);
+    repondre("Download failed: " + error.message);
+  }
+});
