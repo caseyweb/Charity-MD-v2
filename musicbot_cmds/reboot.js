@@ -19,7 +19,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("𝖒𝖚𝖘𝖎𝖈𝖇𝖔𝖙 𝖗𝖊𝖘𝖙𝖆𝖗𝖙𝖎𝖓𝖌....🫨");
+    repondre("𝐂𝐚𝐬𝐞𝐲𝐫𝐡𝐨𝐝𝐞𝐬 𝐢𝐬 𝐫𝐞𝐬𝐭𝐚𝐫𝐭𝐢𝐧𝐠....🫨");
 
   exec("pm2 restart all");
   
