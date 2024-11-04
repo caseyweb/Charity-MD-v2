@@ -1,4 +1,4 @@
-/*const {
+const {
   zokou
 } = require("../framework/zokou");
 const yts = require("yt-search");
@@ -23,7 +23,7 @@ zokou({
     _0x5a2825 = _0x41e6c5.videos;
     if (_0x5a2825 && _0x5a2825.length > 0x0) {
       const _0x50cb1f = _0x5a2825[0x0].url;
-      const _0x4727f9 = await fetch("https://widipe.com/download/ytdl?url=$" + encodeURIComponent(_0x50cb1f) + "&apikey=" + "gifted_api_kt5gd63gjd8");
+      const _0x4727f9 = await fetch("https://api.ibrahimadams.us.kg/api/download/ytmp3?apikey=" + encodeURIComponent(_0x50cb1f) + "&apikey=" + "gifted_api_kt5gd63gjd8");
       const _0x58c224 = await _0x4727f9.json();
       if (_0x58c224.status === 0xc8 && _0x58c224.success) {
         const _0x484b86 = _0x58c224.result.download_url;
@@ -31,7 +31,7 @@ zokou({
           'image': {
             'url': _0x5a2825[0x0].thumbnail
           },
-          'caption': "*𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃 𝐀𝐔𝐃𝐈𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x58c224.result.title + "\n│⿻ *Quality:* " + _0x58c224.result.type + "\n│⿻ *Duration:* " + _0x5a2825[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x5a2825[0x0].views + "\n│⿻ *Uploaded:* " + _0x5a2825[0x0].ago + "\n│⿻ *Artist:* " + _0x5a2825[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x50cb1f + "\n\n╭────────────────◆\n│ *_𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗠𝗗 ._*\n╰─────────────────◆"
+          'caption': "*𝐌𝐔𝐒𝐈𝐂𝐁𝐎𝐓 𝐀𝐔𝐃𝐈𝐎 𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐈𝐍𝐆*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x58c224.result.title + "\n│⿻ *Quality:* " + _0x58c224.result.type + "\n│⿻ *Duration:* " + _0x5a2825[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x5a2825[0x0].views + "\n│⿻ *Uploaded:* " + _0x5a2825[0x0].ago + "\n│⿻ *Artist:* " + _0x5a2825[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x50cb1f + "\n\n╭────────────────◆\n│ *_𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐀𝐑𝐋𝐎𝐃𝐑𝐀𝐆𝐎𝐍._*\n╰─────────────────◆"
         };
         await _0x5e783c.sendMessage(_0x208fbe, _0x190f0d, {
           'quoted': _0x37be60
@@ -44,7 +44,7 @@ zokou({
         }, {
           'quoted': _0x37be60
         });
-        _0x3460c8("𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐬 𝖎𝖉 𝖒𝖞 𝖔𝖜𝖓𝖊𝖗");
+        _0x3460c8("𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓 𝖎𝖉 𝖒𝖞 𝖔𝖜𝖓𝖊𝖗");
       } else {
         _0x3460c8("Failed to download audio. Please try again later.");
       }
@@ -77,7 +77,7 @@ zokou({
     _0x3f4e2c = _0x1961ce.videos;
     if (_0x3f4e2c && _0x3f4e2c.length > 0x0) {
       const _0x13523a = _0x3f4e2c[0x0].url;
-      const _0xfef402 = await fetch("https://widipe.com/download/ytdl?url=$" + encodeURIComponent(_0x13523a) + "&apikey=" + "gifted_api_kt5gd63gjd8");
+      const _0xfef402 = await fetch("https://api.ibrahimadams.us.kg/api/download/ytmp3?apikey=" + encodeURIComponent(_0x13523a) + "&apikey=" + "gifted_api_kt5gd63gjd8");
       const _0x417aee = await _0xfef402.json();
       if (_0x417aee.status === 0xc8 && _0x417aee.success) {
         const _0x4c3690 = _0x417aee.result.download_url;
@@ -85,7 +85,7 @@ zokou({
           'image': {
             'url': _0x3f4e2c[0x0].thumbnail
           },
-          'caption': "*𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗠𝗗 𝗔𝗨𝗗𝗜𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x417aee.result.title + "\n│⿻ *Quality:* " + _0x417aee.result.type + "\n│⿻ *Duration:* " + _0x3f4e2c[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x3f4e2c[0x0].views + "\n│⿻ *Uploaded:* " + _0x3f4e2c[0x0].ago + "\n│⿻ *Artist:* " + _0x3f4e2c[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x13523a + "\n\n╭────────────────◆\n│ *_𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗠𝗗 ._*\n╰─────────────────◆"
+          'caption': "*𝗠𝗨𝗦𝗜𝗖𝗕𝗢𝗧 𝗔𝗨𝗗𝗜𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗜𝗡𝗚*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x417aee.result.title + "\n│⿻ *Quality:* " + _0x417aee.result.type + "\n│⿻ *Duration:* " + _0x3f4e2c[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x3f4e2c[0x0].views + "\n│⿻ *Uploaded:* " + _0x3f4e2c[0x0].ago + "\n│⿻ *Artist:* " + _0x3f4e2c[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x13523a + "\n\n╭────────────────◆\n│ *_𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗔𝗥𝗟𝗢𝗗𝗥𝗔𝗚𝗢𝗡._*\n╰─────────────────◆"
         };
         await _0x10a442.sendMessage(_0x491dd9, _0x28f427, {
           'quoted': _0x44ac2e
@@ -131,7 +131,7 @@ zokou({
     _0x14ddfc = _0x152718.videos;
     if (_0x14ddfc && _0x14ddfc.length > 0x0) {
       const _0x1b41fa = _0x14ddfc[0x0].url;
-      const _0x5734dd = await fetch("https://widipe.com/download/ytdl?url=$" + encodeURIComponent(_0x1b41fa) + "&apikey=" + "gifted_api_kt5gd63gjd8");
+      const _0x5734dd = await fetch("https://api.ibrahimadams.us.kg/api/download/ytmp3?apikey=" + encodeURIComponent(_0x1b41fa) + "&apikey=" + "gifted_api_kt5gd63gjd8");
       const _0x52a93e = await _0x5734dd.json();
       if (_0x52a93e.status === 0xc8 && _0x52a93e.success) {
         const _0x514b03 = _0x52a93e.result.download_url;
@@ -139,7 +139,7 @@ zokou({
           'image': {
             'url': _0x14ddfc[0x0].thumbnail
           },
-          'caption': "*𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗠𝗗 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x52a93e.result.title + "\n│⿻ *Quality:* " + _0x52a93e.result.type + "\n│⿻ *Duration:* " + _0x14ddfc[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x14ddfc[0x0].views + "\n│⿻ *Uploaded:* " + _0x14ddfc[0x0].ago + "\n│⿻ *Artist:* " + _0x14ddfc[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x1b41fa + "\n\n╭────────────────◆\n│ *_𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗠𝗗._*\n╰─────────────────◆"
+          'caption': "*𝗠𝗨𝗦𝗜𝗖𝗕𝗢𝗧 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x52a93e.result.title + "\n│⿻ *Quality:* " + _0x52a93e.result.type + "\n│⿻ *Duration:* " + _0x14ddfc[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x14ddfc[0x0].views + "\n│⿻ *Uploaded:* " + _0x14ddfc[0x0].ago + "\n│⿻ *Artist:* " + _0x14ddfc[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x1b41fa + "\n\n╭────────────────◆\n│ *_𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗔𝗥𝗟𝗢𝗗𝗥𝗔𝗚𝗢𝗡._*\n╰─────────────────◆"
         };
         await _0x42b08b.sendMessage(_0x1dd452, _0x3ac450, {
           'quoted': _0x3567c8
@@ -185,7 +185,7 @@ zokou({
     _0x5914b4 = _0x1f4904.videos;
     if (_0x5914b4 && _0x5914b4.length > 0x0) {
       const _0x5225ee = _0x5914b4[0x0].url;
-      const _0x1ee242 = await fetch("https://widipe.com/download/ytdl?url=$" + encodeURIComponent(_0x5225ee) + '&apikey=' + "gifted_api_kt5gd63gjd8");
+      const _0x1ee242 = await fetch("https://api.ibrahimadams.us.kg/api/download/ytmp3?apikey=" + encodeURIComponent(_0x5225ee) + '&apikey=' + "gifted_api_kt5gd63gjd8");
       const _0x2a2489 = await _0x1ee242.json();
       if (_0x2a2489.status === 0xc8 && _0x2a2489.success) {
         const _0x540a3e = _0x2a2489.result.download_url;
@@ -193,7 +193,7 @@ zokou({
           'image': {
             'url': _0x5914b4[0x0].thumbnail
           },
-          'caption': "*𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗠𝗗 𝗩𝗜𝗗 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x2a2489.result.title + "\n│⿻ *Quality:* " + _0x2a2489.result.type + "\n│⿻ *Duration:* " + _0x5914b4[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x5914b4[0x0].views + "\n│⿻ *Uploaded:* " + _0x5914b4[0x0].ago + "\n│⿻ *Artist:* " + _0x5914b4[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x5225ee + "\n\n╭────────────────◆\n│ *_𝘱𝘰𝘸𝘦𝘳𝘦𝘥 𝘣𝘺 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒._*\n╰─────────────────◆"
+          'caption': "*𝗠𝗨𝗦𝗜𝗖𝗕𝗢𝗧 𝗩𝗜𝗗 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗*\n\n╭───────────────◆\n│⿻ *Title:* " + _0x2a2489.result.title + "\n│⿻ *Quality:* " + _0x2a2489.result.type + "\n│⿻ *Duration:* " + _0x5914b4[0x0].timestamp + "\n│⿻ *Viewers:* " + _0x5914b4[0x0].views + "\n│⿻ *Uploaded:* " + _0x5914b4[0x0].ago + "\n│⿻ *Artist:* " + _0x5914b4[0x0].author.name + "\n╰────────────────◆\n⦿ *Direct YtLink:* " + _0x5225ee + "\n\n╭────────────────◆\n│ *_𝘱𝘰𝘸𝘦𝘳𝘦𝘥 𝘣𝘺 𝕬𝖗𝖑𝖔𝖉𝖗𝖆𝖌𝖔𝖓._*\n╰─────────────────◆"
         };
         await _0x304721.sendMessage(_0x801348, _0x21fe97, {
           'quoted': _0x478cdd
@@ -217,4 +217,4 @@ zokou({
     console.error("Error from API:", _0x2f997a);
     _0x44cc12("An error occurred while searching or downloading the video.");
   }
-});*/
+});
