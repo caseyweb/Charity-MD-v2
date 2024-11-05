@@ -1,6 +1,6 @@
 {
-  "name":"Charity-MD-v2",
-  "description":"Deploy now your bot, charity-md-v2 developed by CASEYRHODES himself.Make sure you fill all variables to avoid bot from sleeping. ",
+  "name":"CHARITY-MD-V2",
+  "description":"Deploy now your bot, CHARITY-MD-V2 developed by CASEYRHODES himself.Make sure you fill all variables to avoid bot from sleeping. ",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.imgur.com/ggIBWn4.jpeg",
   "repository":"https://github.com/caseyweb/Charity-MD-v2",
@@ -42,7 +42,7 @@
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/yedfbr.jpg",
+      "value":"https://files.catbox.moe/52yhol.jpg",
       "required":false
        
      },
