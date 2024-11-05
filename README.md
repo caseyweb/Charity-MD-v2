@@ -1,4 +1,4 @@
-# CASEYRHODES-MD-V2
+# CHARITY-MD-V2
 <div align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I'M+CHARITY MD❤️;Multi+Device+Whatsapp+Bot;" alt="Typing SVG" /></a>
   
@@ -82,7 +82,7 @@ Our AI features use random APIs to run, so sometimes they may be down.
       
    💫IF YOU ALREADY HAVE A HEROKU ACCOUNT...DEPLOY NOW
 
-  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/caseyweb/CASEYRHODES_MD-V2"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+  - <a align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/caseyweb/CHARITY-MD-V2"> <img src="https://img.shields.io/badge/DEPLOY%20NOW-blue?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
   
 
 
