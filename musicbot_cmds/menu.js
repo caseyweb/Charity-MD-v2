@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-> *-(••÷[ 𝗖𝗔𝗦𝗘𝗬𝗥𝗛𝗢𝗗𝗘𝗦 𝗠𝗗]÷••)—*
+ *-(••÷[ 𝗖𝗛𝗔𝗥𝗜𝗧𝗬 𝗠𝗗 𝗩𝟮]÷••)—*
 ╭─────────────────
 │♫︎╭─────────────
 │♫︎│▸ *𝐌𝐄𝐍𝐔* 
