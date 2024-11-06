@@ -35,7 +35,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"CASEYRHODES🌟",
+      "value":"𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 ꧂𒀱",
       "required":false
 
     } ,
@@ -76,7 +76,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "CASEYRHODES 🌟"
+    "value": "𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 ꧂𒀱"
   },
     "NUMERO_OWNER":
   {
