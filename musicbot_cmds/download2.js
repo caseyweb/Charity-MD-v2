@@ -25,7 +25,7 @@ zokou({
       'image': {
         'url': _0x93b128
       },
-      'caption': "*powered by ALPHA-MD*"
+      'caption': "*powered by CHARITY-MD*"
     }, {
       'quoted': _0x4eb9fe
     });
