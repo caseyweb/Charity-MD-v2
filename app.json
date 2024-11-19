@@ -1,9 +1,9 @@
 {
-  "name":"BERA TECH",
-  "description":"Best whatsapp bot developed by BRUCE BERA",
+  "name":"CASEYRHODES TECH",
+  "description":"Best whatsapp bot developed by CASEYRHODES",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://i.ibb.co/4jBhn13/Socialthumb.jpg",
-  "repository":"https://github.com/Bera-Tech/bera-media",
+  "repository":"https://github.com/caseyweb/CHARITY-MD-V2",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BERA TECH",
+      "value":"𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿᴰℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 𒀱",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://i.ibb.co/4jBhn13/Socialthumb.jpg",
+      "value":"https://files.catbox.moe/kwe3i5.jpg",
       "required":false
        
      },
@@ -74,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "BERA"
+    "value": "𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿᴰℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 𒀱"
   },
     "NUMERO_OWNER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254743982206"
+    "value": "254112192119"
   },
     "WARN_COUNT":
   {
