@@ -1,9 +1,9 @@
 {
-  "name":"CHARITY-MD-V2",
-  "description":"Deploy now your bot, CHARITY-MD-V2 developed by CASEYRHODES himself.Make sure you fill all variables to avoid bot from sleeping. ",
+  "name":"BERA TECH",
+  "description":"Best whatsapp bot developed by BRUCE BERA",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://i.imgur.com/ggIBWn4.jpeg",
-  "repository":"https://github.com/caseyweb/Charity-MD-v2",
+  "logo":"https://i.ibb.co/4jBhn13/Socialthumb.jpg",
+  "repository":"https://github.com/Bera-Tech/bera-media",
   "succes_url":"/",
   "stack":"container",
   "env":{
@@ -35,14 +35,14 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 ꧂𒀱",
+      "value":"BERA TECH",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
     
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://files.catbox.moe/52yhol.jpg",
+      "value":"https://i.ibb.co/4jBhn13/Socialthumb.jpg",
       "required":false
        
      },
@@ -53,20 +53,18 @@
       "required":false
     }
 	,
-    "HEROKU_APY_KEY": {
-    "description": "insert your heroku api-key ",
-     "value":"HRKU-2914cfe3-134a-4792-b9de-f097bc418de1",
-	"required" :true
+    "HEROKU_API_KEY": {
+    "description": "insert your heroku api-key (this is optionnal)",
+     "required" :false
     },
   "HEROKU_APP_NAME": {
-    "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
-     "value":"CASEYRHODES",
-	"required" :true
+    "description": "insert your heroku APP NAME (this is optionnal)",
+     "required" :false
     }  
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID, the code you received after pairing code",   
+      "description":"put your session ID , the code you receive after scanning Qr code",   
       "value":"",
       "required":true
       
@@ -76,14 +74,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "𒀱ꪳ𓊈𒆜𓂀ᴸᴼᴿℂ𝔸𝕊𝔼𝕐ℝℍ𝕆𝔻𝔼𝕊𓂀𒆜𓊉 ꧂𒀱"
+    "value": "BERA"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '254')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254112192119"
+    "value": "254743982206"
   },
     "WARN_COUNT":
   {
@@ -99,27 +97,37 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"3",  
+    "value":"",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
     "value": "yes",
-    "required": false
+        "required": false
   }
   },
 
-  "formation": {
-		"worker": {
-			"quantity": 1,
-			"size": "basic"
-		}
-	},
-
-  "addons":[
+    "buildpacks": [
     {
-      "plan":"heroku-postgresql:essential-0"
+      "url": "heroku/nodejs"
+    },
+
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "standard-2x"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql:essential-0"
     }
   ]
-	
 }
