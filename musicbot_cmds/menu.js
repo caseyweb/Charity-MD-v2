@@ -34,7 +34,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧〈 *CHARITY MD* 〉 ✧───◆
+╭────✧〈 *ℂℍ𝔸ℝ𝕀𝕋𝕐_𝕄𝔻_𝕍𝟚* 〉 ✧───◆
 ╭─────────────────
 │✮╭─────────────
 │✮│▸ *𝐌𝐄𝐍𝐔* 
@@ -51,7 +51,7 @@ const date = moment().format('DD/MM/YYYY');
 let menuMsg = ` *COMMANDS* `;
 
     for (const cat in coms) {
-        menuMsg += `╭────────🌟 *${cat}* ❥︎`;
+        menuMsg += `╭────────🍀 *${cat}* ❥︎`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 │🌟│▸ ${cmd}`;
