@@ -37,27 +37,27 @@ const date = moment().format('DD/MM/YYYY');
 ╭═══✧〈 *𝙲𝙷𝙰𝚁𝙸𝚃𝚈 𝙼𝙳* 〉 ✧═══⊷❍ ◆
 │
 │❍╭════════════════⊷❍
-│❍│▸ *𝐌𝐄𝐍𝐔* 
-│❍│▸ *𝐌𝐄𝐍𝐔2* 
-│❍│▸ *𝐀𝐋𝐋𝐌𝐄𝐍𝐔*
+│❍│▸ *𝙼𝙴𝙽𝚄* 
+│❍│▸ *𝙼𝙴𝙽𝚄𝟸* 
+│❍│▸ *𝙰𝙻𝙻𝙼𝙴𝙽𝚄*
 │❍╰════════════════⊷❍ 
-│❍│▸ *𝐏𝐋𝐔𝐆𝐈𝐍𝐒* : ${cm.length} 
-│❍│▸ *𝐑.𝐀.𝐌* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❍│▸ *𝐒𝐄𝐑𝐕𝐄𝐑* : ${os.platform()}
-│❍│▸ *𝐓𝐇𝐄𝐌𝐄* : *𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂 𝚃𝙴𝙲𝙷*
+│❍│▸ *𝙿𝙻𝚄𝙶𝙸𝙽𝚂* : ${cm.length} 
+│❍│▸ *𝚁.𝙰.𝙼* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│❍│▸ *𝚂𝙴𝚁𝚅𝙴𝚁* : ${os.platform()}
+│❍│▸ *𝙾𝚆𝙽𝙴𝚁* : *𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂 𝚃𝙴𝙲𝙷*
 │❍╰════════════════⊷❍ 
 ╰════════════════════⊷❍ \n`;
     
 let menuMsg = ` *COMMANDS* `;
 
     for (const cat in coms) {
-        menuMsg += `╭────────🌟 *${cat}* ❥︎`;
+        menuMsg += `╭════════🌟 *${cat}* ❥︎`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 │🍀│▸ ${cmd}`;
         }
         menuMsg += `
-╰────────────···▸▸ \n`
+╰════════════════⊷❍ \n`
     }
 
     menuMsg += `> 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂
