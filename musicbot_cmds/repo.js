@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { zokou } = require("../framework/zokou");
 
 zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __filename }, async (dest, zk, commandeOptions) => {
-  const githubRepo = 'https://i.imgur.com/ggIBWn4.jpeg';
+  const githubRepo = 'https://github.com/caseyweb/CHARITY-MD-V2';
   const img = 'https://i.imgur.com/ggIBWn4.jpeg';
 
   try {
@@ -30,11 +30,11 @@ zokou({ nomCom: "repo", catégorie:"Général", reaction: "🔎", nomFichier: __
 ││ *𝐅𝐨𝐫𝐤𝐬:* ${repoInfo.forks}
 ││ *𝐑𝐞𝐥𝐞𝐚𝐬𝐞 𝐃𝐚𝐭𝐞:* ${releaseDate}
 ││ *𝐔𝐩𝐝𝐚𝐭𝐞𝐝:* ${repoInfo.lastUpdate}
-││ *𝐎𝐰𝐧𝐞𝐫:* CASEYRHODES™
+││ *𝐎𝐰𝐧𝐞𝐫:* 𝙲𝙰𝚂𝙴𝚈𝚁𝙷𝙾𝙳𝙴𝚂™
 ││ *𝐂𝐡𝐚𝐧𝐧𝐞𝐥:* https://whatsapp.com/channel/0029VakUEfb4o7qVdkwPk83E
 ││ *𝐘𝐨𝐮𝐭𝐮𝐛𝐞:* https://www.youtube.com/@caseyrhodes01
 ╰─────────▱▰▱▰────────
-          *▀▄▀▄▀▄ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐌𝐃 ▄▀▄▀▄▀*`;
+          *▀▄▀▄▀▄ 𝙲𝙷𝙰𝚁𝙸𝚃𝚈 𝙼𝙳 𝚅𝟸 ▄▀▄▀▄▀*`;
 
       await zk.sendMessage(dest, { image: { url: img }, caption: gitdata });
     } else {
