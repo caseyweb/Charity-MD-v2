@@ -24,7 +24,7 @@ zokou({
     const groupIds = groupzs.map(v => v.id);
     let responseMessage = `*GROUPS AM IN*\n\n`;
 
-    repondre(`You are currently in ${groupIds.length} groups. Alpha MD will send that list shortly...`);
+    repondre(`You are currently in ${groupIds.length} groups. CHARITY MD will send that list shortly...`);
 
     for (const id of groupIds) {
       const metadata = await zk.groupMetadata(id);
@@ -75,7 +75,7 @@ const generateImage = async (messageId, sender, prompt, category) => {
       image: {
         url: imageUrl
       },
-      caption: "*powered by ALPHA-MD*"
+      caption: "*powered by CHARITY-MD*"
     });
   } catch (error) {
     console.error("Error generating image:", error);
