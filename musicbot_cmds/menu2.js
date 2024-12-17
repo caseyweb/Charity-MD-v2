@@ -32,33 +32,33 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────❦︎𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒❦︎ ────
+╭────《《CHARITY MD》》────
 ┴  ╭─────────────
-│ꨄ︎│ *𝗢𝗪𝗡𝗘𝗥* : ${s.OWNER_NAME}
-│ꨄ︎│⁠⁠⁠⁠ *CALENDER* : ${date}
-│ꨄ︎│⁠⁠⁠⁠ *𝗣𝗥𝗘𝗙𝗜𝗫* : ${s.PREFIXE}
-│ꨄ︎⁠⁠⁠⁠│⁠⁠⁠ *𝗠𝗢𝗗𝗘* : ${mode} mode
-│ꨄ︎│⁠⁠⁠⁠ *𝗣𝗟𝗨𝗚𝗜𝗡𝗦* : ${cm.length} 
-│ꨄ︎│⁠⁠⁠⁠ *𝗥𝗔𝗠* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❦︎│⁠⁠⁠⁠ *𝗣𝗟𝗔𝗧𝗙𝗢𝗥𝗠* : ${os.platform()}
-│❦︎│⁠⁠⁠⁠ *𝗧𝗛𝗘𝗠𝗘* : *—(••÷[ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 ]÷••)—♫︎*
+│❒⁠⁠⁠⁠│ *ADMIN* : ${s.OWNER_NAME}
+│❒│⁠⁠⁠⁠ *CALENDER* : ${date}
+│❒│⁠⁠⁠⁠ *PREFIX* : ${s.PREFIXE}
+│❒⁠⁠⁠⁠│⁠⁠⁠ *BOT IS IN* : ${mode} mode
+│❒│⁠⁠⁠⁠ *ORDERS* : ${cm.length} 
+│❒│⁠⁠⁠⁠ *SPACE* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│❒│⁠⁠⁠⁠ *CHROME* : ${os.platform()}
+│❒│⁠⁠⁠⁠ *THEME* : *CHARITY MD THEME*
 ┬  ╰──────────────
-╰─── ··❦︎𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒❦︎··──\n`;
+╰─── ··《《CHARITY MD》》··──\n`;
     
 let menuMsg = `
  ─────────
-  *💎—(••÷[ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 ]÷••)—💎* 
+  *TEAM CASEYRHODES BOTS* 
  ─────────
 
 
- *𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦*
+ *ℂ𝕆𝕄𝕄𝔸ℕ𝔻𝕊*
 `;
 
     for (const cat in coms) {
-        menuMsg += ` ╭─ꨄ︎ *${cat}* ఌ︎─`;
+        menuMsg += ` ╭─⬡ *${cat}* ⬡─`;
         for (const cmd of coms[cat]) {
             menuMsg += `
-♫︎│▸ *${cmd}*`;
+⬡│▸ *${cmd}*`;
         }
         menuMsg += `
   ╰────────────·· \n`
@@ -66,7 +66,7 @@ let menuMsg = `
 
     menuMsg += `
 
-|❦︎ 𝐂𝐀𝐒𝐄𝐘𝐑𝐇𝐎𝐃𝐄𝐒 𝐢𝐬 𝐦𝐲 𝐨𝐰𝐧𝐞𝐫
+|⏣MADE EASY BY CASEYRHODES TECH MEDIA 🍀
 *❒⁠⁠⁠⁠—————————— ❒⁠⁠⁠⁠——————————❒⁠⁠⁠⁠*
 `;
 
