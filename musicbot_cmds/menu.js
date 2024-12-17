@@ -36,16 +36,16 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 > CHARITY MD V2 AVAILABLE MENUS* 
 ╭─────────────────
-│❒⁠⁠⁠⁠╭─────────────
-│❒⁠⁠⁠⁠│▸ *MENU* 
-│❒⁠⁠⁠⁠│▸ *MENU2* 
-│❒⁠⁠⁠⁠│▸ *BUGMENU*
-│❒⁠⁠⁠⁠╰──────────────
-│❒⁠⁠⁠⁠│▸ *PLUGINS* : ${cm.length} 
-│❒⁠⁠⁠⁠│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠│▸ *SAVER* : ${os.platform()}
-│❒⁠⁠⁠⁠│▸ *THEME* : *CHARITY MD V2 THEMES*
-│❒⁠⁠⁠⁠╰──────────────
+│❍╭─────────────
+│❍│▸ *MENU* 
+│❍│▸ *MENU2* 
+│❍│▸ *BUGMENU*
+│❍╰──────────────
+│❍│▸ *PLUGINS* : ${cm.length} 
+│❍│▸ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+│❍│▸ *SAVER* : ${os.platform()}
+│❍│▸ *THEME* : *CHARITY MD V2 THEMES*
+│❍╰──────────────
 ╰──────────────────\n`;
     
 let menuMsg = `
@@ -63,7 +63,7 @@ let menuMsg = `
 ╰────────────···▸▸ \n`
     }
 
-    menuMsg += `> MADE EASY BY CASEYRHODES 
+    menuMsg += `> MADE EASY BY CASEYRHODES 🍀
 `;
 
    var lien = mybotpic();
